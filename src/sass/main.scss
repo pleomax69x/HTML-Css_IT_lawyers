@@ -3,4 +3,24 @@
  */
 
 @import 'normalize.scss';
+@import './helpers/fonts.scss';
+@import './helpers/variables.scss';
+@import './helpers/mixins.scss';
+@import './helpers/placeholders.scss';
 @import 'base.scss';
+
+@import './components/container.scss';
+@import './components/section.scss';
+@import './components/section-title.scss';
+@import './components/btn-hell.scss';
+
+@import './sections/header.scss';
+@import './sections/about.scss';
+@import './sections/problems.scss';
+@import './sections/methods.scss';
+@import './sections/program.scss';
+@import './sections/teacher.scss';
+@import './sections/waranties.scss';
+@import './sections/comments.scss';
+@import './sections/registration.scss';
+@import './sections/footer.scss';
