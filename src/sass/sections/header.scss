@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 0;
+}
+
+.logotype {
+  width: 128px;
+
+  &_hell,
+  &_en {
+    display: inline-block;
+  }
+
+  &__hell-en {
+    display: inline-block;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_logotype {
+    margin-right: 110px;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 612x;
+
+  &__item:not(:last-of-type) {
+    margin-right: 45px;
+  }
+
+  &__item-link {
+    font-family: $second-font;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 1.2px;
+    color: $fg-color;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
