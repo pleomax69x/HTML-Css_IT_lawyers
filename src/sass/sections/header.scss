@@ -6,14 +6,29 @@
 
 .logotype {
   width: 128px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 
-  &_hell,
-  &_en {
+  &__hell {
+      display: inline-block;
+      font-size: 25px;
+      letter-spacing: 1.25px;
+    }
+
+  &__en {
     display: inline-block;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 0.75px;
   }
 
-  &__hell-en {
+  &__hell-ru, &__english-ru {
     display: inline-block;
+    text-transform: uppercase;
+    font-size: 9px;
+  }
+  &__hell-ru {
+    color: $main-color;
   }
 }
 
@@ -30,7 +45,7 @@
 .menu {
   display: flex;
   justify-content: space-between;
-  flex-basis: 612x;
+  flex-basis: 612px;
 
   &__item:not(:last-of-type) {
     margin-right: 45px;
