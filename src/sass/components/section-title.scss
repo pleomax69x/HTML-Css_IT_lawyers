@@ -1,0 +1,17 @@
+.section-title {
+  font-family: $main-font;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 1px;
+
+  @media (min-width: 768px) {
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 42px;
+    line-height: 56px;
+  }
+}
